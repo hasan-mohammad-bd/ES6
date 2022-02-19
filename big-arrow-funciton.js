@@ -34,7 +34,13 @@ const doMath = (x,y) => {
 const total = doMath(12, 5);
 console.log(total);
 
-//same as above where function has no parameter name
-document.getElementById("my-btn").addEventListener(event => {
 
-})
+//problem
+//same as above where function has no parameter name
+// document.getElementById("my-btn").addEventListener(event => {
+
+// })
+
+const y = x => x*x; const z = y(5); 
+console.log(25);
+
