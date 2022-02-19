@@ -14,7 +14,7 @@ const add3 = function(num1, num2){
     return num1 + num2;
 }
 
-//arrow function
+//arrow function (new and most useful)
 //===========================================================
 const add4 = (num1, num2) => num1 + num2;
 
