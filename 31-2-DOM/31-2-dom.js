@@ -1,3 +1,6 @@
+//31-2 Recap of DOM Manipulation and event handler
+
+
 document.getElementById("add-border").addEventListener("click", function(){
     document.getElementById("friend-container").style.border = "3px solid black"
 })

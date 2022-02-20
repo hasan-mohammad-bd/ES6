@@ -1,3 +1,5 @@
+//31-4 Function default parameter for not provided values
+
 //default can be set as below if there is no argument the default value will be taken. otherwise the default will be executed.
 function add(num1, num2 =0){
 

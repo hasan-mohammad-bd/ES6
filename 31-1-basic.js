@@ -1,3 +1,5 @@
+//31-1 Simple Recap of JavaScript six core parts
+
 // variable
 var deposit = 400;
 

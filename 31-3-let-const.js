@@ -1,3 +1,6 @@
+//31-3 Breakup with var to have a relationship with Let and const
+
+
 //if we dont change the value of the variable const can be used.
 const balance = 1340;
 balance = 1355; //will not work , can be concatenate add with other variable//or can be modified

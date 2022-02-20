@@ -1,3 +1,6 @@
+//31-6 Arrow function, multiple parameter, function body
+
+
 //normal function
 function add(num1, num2) {
     return num1 + num2;

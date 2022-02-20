@@ -1,3 +1,6 @@
+//31-7 More Arrow functions and big arrow function
+
+
 //array function
 //implicit return: if the return can be write in one line 
 const add = (num1, num2) => num1 + num2;
