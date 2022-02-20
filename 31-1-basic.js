@@ -30,7 +30,7 @@ const  numbers = [ 58.57,97,83,28,84]
 const numberCount = numbers.length;
 numbers.pop();
 numbers.push(111);
-numbers[2] = 555;
+numbers[2] = 555; //to change a particular 
 //check whether 222 included in the array
 if(numbers.indexOf(222) != -1){
 
