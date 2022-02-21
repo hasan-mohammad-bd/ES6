@@ -51,3 +51,49 @@ function adding(num1, num2 = 8){
 }
 
 console.log(adding(4,7,7,5));
+
+//template string
+const hasan = "28";
+const shoaib = "27";
+
+const templateString = `
+This is Hasan Mohammad
+currently ${hasan.length} code
+would like to work in IT sector
+`
+
+console.log(templateString);
+
+//arrow function
+
+// const adding = (num1, num2) => num1 + num2;
+
+// const sum = adding(1,2)
+// console.log(sum);
+
+//big arrow function
+
+//arrow function.
+
+//if there is one parameter.
+
+const hello = number => number * 2;
+console.log(hello(10));
+//dont need parenthesis if there is one parameter.
+const hellos = numbers => numbers.length
+console.log(hellos("hasan Mohammad"));
+
+//if there is no parameter.
+const getName = () => "Hasan Mohammad"
+console.log(getName());
+
+//if there is long condition or calculation second bracket must be used.
+
+const doMath = (x,y) => {
+    const sum = x + y;
+    const diff = x - y;
+    const result = sum * diff;
+    return result;
+}
+
+console.log(doMath(10,5));
