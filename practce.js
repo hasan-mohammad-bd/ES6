@@ -97,3 +97,20 @@ const doMath = (x,y) => {
 }
 
 console.log(doMath(10,5));
+
+
+//spread operator(...)
+const theNumbers = [1,2,3,4,5,6,7,8,9];
+const maxValue = Math.max(...theNumbers);
+console.log(maxValue);
+
+
+//new array creating.
+const theSecondArray = [12,...theNumbers, 99]
+console.log(theSecondArray);
+
+
+
+
+
+
