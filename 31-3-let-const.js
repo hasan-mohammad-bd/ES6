@@ -1,5 +1,15 @@
 //31-3 Breakup with var to have a relationship with Let and const
 
+//================================
+//var vs let vs const 
+
+//var variable is not black variable, it can be access and reassign. 
+
+//let variable is black variable, cant not be reassigned. let solve the problem rewrite a variable name twice.
+
+//const variable is black variable, can not change the value and reassign. only can be modified.const allow to change its object property value. const must be assign and declaring value in one line. cant not be assign and declared value in separate line.
+//================================
+
 
 //if we dont change the value of the variable const can be used.
 const balance = 1340;
